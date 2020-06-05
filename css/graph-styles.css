@@ -19,3 +19,7 @@
   height: 500px; 
   width: 50%;
 }
+
+#imgGraph1{
+  position: absolute;
+}
