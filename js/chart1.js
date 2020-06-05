@@ -13,6 +13,11 @@ window.onload = function () {
   {
   animationEnabled: false,
   theme: "light2",
+  toolTip:{
+
+
+  },
+
   title:{
     text: ""
   },
