@@ -81,8 +81,8 @@ window.onload = function () {
     function positionIndexLabels(chart) {
     for (var i = 0; i < indexLabels.length; i++) {
       indexLabels[i].style.top = chart.axisY2[0].bounds["y1"] + 2 +  "px";
-      if(i == 2){indexLabels[i].style.left = chart.axisX[0].stripLines[i].get("bounds").x2  + 12 + "px";}
-	  else{indexLabels[i].style.left = chart.axisX[0].stripLines[i].get("bounds").x1 - $("#p" + i.toString()).width() + 2  + "px";}
+      if(i == 2){indexLabels[i].style.left = chart.axisX[0].stripLines[i].get("bounds").x2  + 12 + "px"; indexLabels[i].style.textAlign = "left";}
+	    else{indexLabels[i].style.left = chart.axisX[0].stripLines[i].get("bounds").x1 - $("#p" + i.toString()).width() + 2  + "px";}
     }
   }
 
