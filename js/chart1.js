@@ -29,19 +29,19 @@ window.onload = function () {
     stripLines:[
       {                
           color:"black",
-          showOnTop:true,
+          showOnTop:false,
           thickness:2,
           value:lines[0]['x'],
               },
        {                
           color:"black",
-          showOnTop:true,
+          showOnTop:false,
           thickness:2,
           value:lines[1]['x'],
               },
        {                
           color:"black",
-          showOnTop:true,
+          showOnTop:false,
           thickness:2,
           value:lines[2]['x'],
               }
