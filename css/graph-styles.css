@@ -1,0 +1,21 @@
+.boldPTag {
+  color: black;
+  font-weight:bold; 
+  position: absolute;
+  font-size: 16px;
+  text-align: right;
+  font-family: 'Archivo', sans-serif;
+}
+
+.spanTag{ 
+  color: #303030;
+  position: relative;
+  font-size: 12px;
+  text-align: right;
+  font-family: 'Archivo', sans-serif;
+}
+
+#chartContainer{
+  height: 500px; 
+  width: 50%;
+}
